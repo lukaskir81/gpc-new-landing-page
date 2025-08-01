@@ -182,7 +182,7 @@ p {
 .hero {
     padding: 120px 20px 80px;
     background: 
-        linear-gradient(135deg, rgba(248, 249, 250, 0.97) 0%, rgba(233, 236, 239, 0.97) 100%),
+        linear-gradient(135deg, rgba(248, 249, 250, 0.97) 0%, rgba(233, 236, 239, 0.90) 100%),
         url('attached_assets/hero-gym_1754043632615.jpg');
     background-size: cover;
     background-position: center;
@@ -425,6 +425,15 @@ p {
 .why-choose .btn-primary {
     display: inline-flex;
     width: auto;
+    background: #34495e;
+    color: white;
+    border: 2px solid #5a6c7d;
+}
+
+.why-choose .btn-primary:hover {
+    background: #2c3e50;
+    border-color: #34495e;
+    box-shadow: 0 4px 15px rgba(44, 62, 80, 0.3);
 }
 
 .image-grid {
