@@ -180,7 +180,12 @@ p {
 /* Hero Section */
 .hero {
     padding: 120px 20px 80px;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: 
+        linear-gradient(135deg, rgba(248, 249, 250, 0.95) 0%, rgba(233, 236, 239, 0.95) 100%),
+        url('attached_assets/image_1754041819042.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     align-items: center;
