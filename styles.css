@@ -52,7 +52,7 @@ p {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
     color: white;
     padding: 12px 24px;
     border: none;
@@ -62,12 +62,12 @@ p {
     font-size: 1rem;
     transition: all 0.3s ease;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(255, 107, 53, 0.4);
+    box-shadow: 0 8px 25px rgba(231, 76, 60, 0.4);
 }
 
 .btn-primary.large {
@@ -134,7 +134,7 @@ p {
 }
 
 .nav-logo h2 {
-    color: #ff6b35;
+    color: #e74c3c;
     margin: 0;
     font-size: 1.5rem;
 }
@@ -153,11 +153,11 @@ p {
 }
 
 .nav-link:hover {
-    color: #ff6b35;
+    color: #e74c3c;
 }
 
 .nav-cta {
-    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
     color: white !important;
     padding: 8px 16px;
     border-radius: 20px;
@@ -169,7 +169,7 @@ p {
 
 .nav-cta:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+    box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
 }
 
 .nav-toggle {
@@ -207,7 +207,7 @@ p {
 }
 
 .highlight {
-    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -239,7 +239,7 @@ p {
 
 .stat h3 {
     font-size: 2.5rem;
-    color: #ff6b35;
+    color: #e74c3c;
     margin-bottom: 0.5rem;
 }
 
@@ -334,7 +334,7 @@ p {
 }
 
 .service-content h3 i {
-    color: #ff6b35;
+    color: #e74c3c;
     font-size: 1.2rem;
 }
 
@@ -398,7 +398,7 @@ p {
 }
 
 .benefit i {
-    color: #ff6b35;
+    color: #e74c3c;
     font-size: 1.5rem;
     margin-top: 0.5rem;
     flex-shrink: 0;
@@ -485,7 +485,7 @@ p {
 
 .result-stats h3 {
     font-size: 2.2rem;
-    color: #ff6b35;
+    color: #e74c3c;
     margin-bottom: 0.25rem;
 }
 
@@ -512,14 +512,14 @@ p {
 }
 
 .result-author span {
-    color: #ff6b35;
+    color: #e74c3c;
     font-size: 0.75rem;
 }
 
 /* CTA Section */
 .cta-section {
     padding: 80px 20px;
-    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
     text-align: center;
     color: white;
 }
@@ -545,7 +545,7 @@ p {
 
 .cta-buttons .btn-primary {
     background: white;
-    color: #ff6b35;
+    color: #e74c3c;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -591,7 +591,7 @@ p {
 }
 
 .contact-method i {
-    color: #ff6b35;
+    color: #e74c3c;
     font-size: 1.5rem;
     margin-top: 0.5rem;
     flex-shrink: 0;
@@ -608,7 +608,7 @@ p {
 }
 
 .contact-method a {
-    color: #ff6b35;
+    color: #e74c3c;
     text-decoration: none;
     font-weight: 600;
 }
@@ -625,7 +625,7 @@ p {
     justify-content: center;
     width: 40px;
     height: 40px;
-    background: #ff6b35;
+    background: #e74c3c;
     color: white;
     border-radius: 50%;
     text-decoration: none;
@@ -633,7 +633,7 @@ p {
 }
 
 .social-link:hover {
-    background: #e55a2b;
+    background: #c0392b;
     transform: translateY(-3px);
 }
 
