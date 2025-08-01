@@ -420,20 +420,13 @@ p {
 
 .why-choose .cta-section {
     text-align: left;
+    background: transparent;
+    padding: 2rem 0;
 }
 
 .why-choose .btn-primary {
     display: inline-flex;
     width: auto;
-    background: #34495e;
-    color: white;
-    border: 2px solid #5a6c7d;
-}
-
-.why-choose .btn-primary:hover {
-    background: #2c3e50;
-    border-color: #34495e;
-    box-shadow: 0 4px 15px rgba(44, 62, 80, 0.3);
 }
 
 .image-grid {
