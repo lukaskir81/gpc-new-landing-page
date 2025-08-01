@@ -182,8 +182,8 @@ p {
 .hero {
     padding: 120px 20px 80px;
     background: 
-        linear-gradient(135deg, rgba(248, 249, 250, 0.95) 0%, rgba(233, 236, 239, 0.95) 100%),
-        url('attached_assets/image_1754041819042.png');
+        linear-gradient(135deg, rgba(248, 249, 250, 0.97) 0%, rgba(233, 236, 239, 0.97) 100%),
+        url('attached_assets/hero-gym_1754043632615.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
