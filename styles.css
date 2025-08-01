@@ -413,6 +413,10 @@ p {
     margin: 0;
 }
 
+.cta-section {
+    margin-top: 2rem;
+}
+
 .image-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
