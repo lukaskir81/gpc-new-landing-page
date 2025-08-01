@@ -418,6 +418,15 @@ p {
     margin-top: 2rem;
 }
 
+.why-choose .cta-section {
+    text-align: left;
+}
+
+.why-choose .btn-primary {
+    display: inline-flex;
+    width: auto;
+}
+
 .image-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
