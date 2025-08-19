@@ -758,6 +758,27 @@ p {
         display: block;
     }
     
+    /* --- THIS IS THE FIX --- */
+    .nav-menu.active {
+        display: flex; 
+        flex-direction: column; 
+        position: absolute; 
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.98); 
+        padding: 1rem 0;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-menu.active .nav-link,
+    .nav-menu.active .nav-cta {
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+    }
+    /* --- END OF FIX --- */
+    
     .hero-container {
         grid-template-columns: 1fr;
         gap: 2rem;
