@@ -365,7 +365,7 @@ p {
 /* Why Choose Section */
 .why-choose {
     padding: 80px 20px;
-    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    background: black; /* Changed from linear-gradient */
     color: white;
 }
 
